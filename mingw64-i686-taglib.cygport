@@ -15,6 +15,7 @@ SRC_URI="https://github.com/downloads/taglib/taglib/taglib-${VERSION}.tar.gz"
 SRC_DIR="taglib-${VERSION}"
 PATCH_URI="
 	http://pkgs.fedoraproject.org/cgit/taglib.git/plain/taglib-1.8-version.patch
+	1.8-install-pkgconfig.patch
 "
 
 DIFF_EXCLUDES="Doxyfile"
